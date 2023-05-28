@@ -1,0 +1,29 @@
+.search-form-style {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.photo-card {
+  flex-basis: calc((100vw / 5)- 20px);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #929cad;
+  border-radius: 5px;
+}
+.photo-card:hover {
+  box-shadow: 2px 2px 5px#73839e;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+.is-hidden {
+  display: none;
+}
